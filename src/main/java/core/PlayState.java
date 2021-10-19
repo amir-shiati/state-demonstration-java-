@@ -6,4 +6,9 @@ public class PlayState implements PlayerState {
         System.out.println("Player is playing.");
         player.changeState(this);
     }
+
+    @Override
+    public String toString(){
+        return "playing...";
+    }
 }

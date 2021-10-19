@@ -6,4 +6,9 @@ public class StopState implements PlayerState {
         System.out.println("Player is stopped.");
         player.changeState(this);
     }
+
+    @Override
+    public String toString() {
+        return "stopped.";
+    }
 }

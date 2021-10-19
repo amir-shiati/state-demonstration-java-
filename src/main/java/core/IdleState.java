@@ -6,4 +6,9 @@ public class IdleState implements PlayerState {
         System.out.println("Player is idle.");
         player.changeState(this);
     }
+
+    @Override
+    public String toString(){
+        return "idle";
+    }
 }
